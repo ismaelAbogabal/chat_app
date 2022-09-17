@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "412979701551",
+    "project_id": "todos-course",
+    "storage_bucket": "todos-course.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412979701551:android:459147d98f8dd2165123da",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412979701551-t263cbi5i00uen41prins0ae5i0eu3js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLWge9g7xZapFSQlyU91kfIAi7tEH7_Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412979701551-t263cbi5i00uen41prins0ae5i0eu3js.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "412979701551-sbrvmmb3b8om92pd75pidtvvk8qa698n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.todoRiverpod"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412979701551:android:c7ca02fd669cd5af5123da",
+        "android_client_info": {
+          "package_name": "com.example.todo_riverpod"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412979701551-t263cbi5i00uen41prins0ae5i0eu3js.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLWge9g7xZapFSQlyU91kfIAi7tEH7_Kc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "412979701551-t263cbi5i00uen41prins0ae5i0eu3js.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "412979701551-sbrvmmb3b8om92pd75pidtvvk8qa698n.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.todoRiverpod"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
