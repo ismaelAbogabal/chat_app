@@ -30,9 +30,12 @@ abstract class AuthRepo {
 
 class _FirebaseImplementation implements AuthRepo {
   @override
-  Future<Profile?> getInitialUser() {
-    // TODO: implement getInitialUser
-    throw UnimplementedError();
+  Future<Profile?> getInitialUser() async {
+    final user = FirebaseAuth.instance.currentUser;
+    print(user);
+    if (user != null) return Profile.fromFirebaseUser(user);
+
+    return null;
   }
 
   @override
@@ -65,9 +68,13 @@ class _FirebaseImplementation implements AuthRepo {
   }
 
   @override
-  Future<Profile> signIn(String email, String password) {
-    // TODO: implement signIn
-    throw UnimplementedError();
+  Future<Profile> signIn(String email, String password) async {
+    final user = await FirebaseAuth.instance.signInWithEmailAndPassword(
+      email: email,
+      password: password,
+    );
+
+    return Profile.fromFirebaseUser(user.user!);
   }
 
   @override

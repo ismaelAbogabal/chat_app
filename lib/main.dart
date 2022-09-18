@@ -1,6 +1,6 @@
 import 'package:chat_app/common/screens/splash_screen.dart';
 import 'package:chat_app/common/utils/app_router.dart';
-import 'package:chat_app/common/utils/theme.dart';
+import 'package:chat_app/common/utils/theme.dart'; 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
